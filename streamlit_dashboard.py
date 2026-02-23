@@ -16,7 +16,7 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs([
     "Pickup/Drop Heatmap",
     "Cancellations by Hour",
     "Surge Patterns",
-    "Cancellation rate by City and weekday",
+    "Number of Cancellations by City and weekday",
     "Customer vs Driver Scores by City"
 ])
 
