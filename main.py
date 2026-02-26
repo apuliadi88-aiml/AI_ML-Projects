@@ -4,7 +4,7 @@ from functions import load_csv,merge_datasets,preprocess_data, save_csv, save_to
 from sqlalchemy import create_engine
 
 # Database connection setup
-engine = create_engine("postgresql+psycopg2://postgres:Akshara_123@localhost:5432/rapido_db")
+engine = create_engine("postgresql+psycopg2://username:password@localhost:5432/rapido_db")
 
 # Load the dataset
 bookings = load_csv("data/bookings.csv")
